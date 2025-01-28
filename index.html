@@ -4,10 +4,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width='device-width', initial-scale=1.0">
-    <title>Document</title>
+    <title>Random Number</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
+    <div>
+        <ul> <!-- <ul> is a valid parent for <li> -->
+            <li>
+                <a href="parameters/index.html">Navigate to Max Parameters</a>
+            </li>
+        </ul>
+    </div>
+
+
+    <h1>GENERATE A RANDOM NUMBER BETWEEN 0 T0 100!</h1>
+    <div id="randomNumberContainer">
+        <input type="text" id="randomNumberInput" readonly placeholder="Your random number will appear here">
+        <button onclick="logRandomNumber()">Generate Number</button>
+    </div>
+    <script src="script.js"></script>
 
 </body>
 
